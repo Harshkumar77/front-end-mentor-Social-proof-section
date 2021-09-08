@@ -42,7 +42,7 @@
 }
 
 body {
-  background-image: url("images/bg-pattern-top-desktop.svg"),
+  background-image: url("https://raw.githubusercontent.com/Harshkumar77/front-end-mentor-Social-proof-section/main/images/bg-pattern-top-desktop.svg"),
     url("images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
   text-align: center;
