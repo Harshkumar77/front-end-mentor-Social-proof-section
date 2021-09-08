@@ -17,6 +17,9 @@
     position: relative;
     top: 60px;
   }
+  .let {
+    width: 50%;
+  }
 }
 
 @media (max-width: 749px) {
@@ -26,14 +29,23 @@
   .review {
     margin: 20px 10px 0px 10px;
   }
+  .top {
+    flex-direction: column;
+  }
+  .star-box {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 body {
   background-image: url("/images/bg-pattern-top-desktop.svg"),
     url("/images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
+  text-align: center;
   background-position: top left, bottom right;
   font-family: spartan;
+  min-height: 100%;
 }
 
 h1 {
@@ -45,6 +57,8 @@ h1 {
 .stars {
   color: hsl(300, 43%, 22%);
   background-color: hsl(300, 24%, 96%);
+  margin: 0 10px 20px 10px;
+  padding: 15px 10px 15px;
 }
 
 .info {
@@ -60,6 +74,7 @@ h1 {
   background-color: hsl(300, 43%, 22%);
   border-radius: 15px;
   padding: 10px;
+  text-align: start;
 }
 
 .name {
@@ -88,4 +103,13 @@ h1 {
   display: flex;
   margin-top: 20px;
   flex-direction: column;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.let {
 }
