@@ -56,8 +56,8 @@
 }
 
 body {
-  background-image: url("./images/bg-pattern-top-desktop.svg"),
-    url("./images/bg-pattern-bottom-desktop.svg");
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
   text-align: center;
   background-position: top left, bottom right;
